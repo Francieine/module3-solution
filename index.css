@@ -1,13 +1,16 @@
 body{
+    background-color: lightgray;
+}
+#container{
     font-family: 'Oxygen', sans-serif;
     font-size: 16px;
-    background-color: #bff186;
+    margin: 0;
 }
 
 #header-nav{
     background-color: #d9f1c8;
     border-radius: 0;
-    border:0;
+    border: 0;
 }
 
 .navbar-header h1{
@@ -23,3 +26,30 @@ body{
     text-decoration: none;
 }
 
+h2{
+    color: rgb(165, 165, 165);
+    margin-bottom: 30px;
+}
+
+#nav-list {
+    margin-top:10px;
+}
+
+#nav-list a{
+text-align: center;
+}
+
+#nav-list a span:hover{
+background-color: white;
+}
+
+ul > li:hover {
+    background-color: white;
+}
+
+.text-chicken{
+    background-color: rgb(196, 193, 193);
+    width: 800px;
+    height: 450px;
+    margin: 0 auto;
+}
